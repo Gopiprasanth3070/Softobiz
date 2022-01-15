@@ -1,0 +1,7 @@
+#!/bin/bash 
+
+apt update 
+
+apt install apache2 -y 
+
+echo "Welcome to SoftoBiz DevOps Team" > /var/www/html/index.html 
